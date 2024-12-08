@@ -6,7 +6,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.header, .main, .gallery {
+.header, .main, .gallery, .quote, .action {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
@@ -70,6 +70,7 @@ body {
 .gallery {
     background-color: white;
     color: #1F2937;
+    padding: 5rem 0;
 }
 
 .gallery h2 {
@@ -110,4 +111,47 @@ button {
 .card p {
     text-align: center;
     margin-top: 0.5rem;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 5rem 0;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.quote .author {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: right;
+}
+
+.action {
+    background-color: white;
+    padding: 5rem 0;
+}
+
+.action .alert {
+    background-color: #3882F6;
+    border-radius: 1rem;
+    padding: 3rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action p, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.action button {
+    border: 1px solid white;
 }
