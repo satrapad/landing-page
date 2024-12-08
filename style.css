@@ -6,7 +6,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.header, .main, .gallery, .quote, .action {
+.header, .main, .gallery, .quote, .action, .footer {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
@@ -154,4 +154,10 @@ button {
 
 .action button {
     border: 1px solid white;
+}
+
+.footer p {
+    text-align: center;
+    color: #F9FAF8;
+    text
 }
